@@ -14,9 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        swooshIco.frame = CGRect(x: view.frame.size.width / 2 - swooshIco.frame.size.width / 2, y: 50, width: swooshIco.frame.size.width, height: swooshIco.frame.size.height);
-        
-        bgImg.frame = view.frame;
     }
 
     @IBOutlet weak var swooshIco: UIImageView!
