@@ -18,5 +18,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var swooshIco: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
+    
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue){
+         
+    }
 }
 
