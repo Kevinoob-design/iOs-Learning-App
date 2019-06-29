@@ -93,11 +93,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="bgImg" destination="UuF-ph-82j" id="UPW-P1-FqM"/>
-                        <outlet property="goAllLabel" destination="Ojo-pp-M06" id="j99-Vt-H8U"/>
-                        <outlet property="swooshIco" destination="rzt-Rl-laG" id="3W1-Yb-6ov"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
