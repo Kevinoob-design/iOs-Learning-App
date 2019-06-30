@@ -10,10 +10,14 @@ import UIKit
 
 class LeagueVC: UIViewController {
 
+    @IBOutlet weak var nextBtn: BorderButton!
+    
+    var player: Player!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        player = Player()
     }
     
     @IBAction func onNextTapped(_ sender: Any) {
@@ -21,6 +25,25 @@ class LeagueVC: UIViewController {
         performSegue(withIdentifier: "skillVCSegue", sender: self)
     }
     
+    @IBAction func onMensTapped(_ sender: Any) {
+        selectLeague(leagueType: "mens", Button: sender)
+    }
+    
+    @IBAction func onWomensTapped(_ sender: Any) {
+        selectLeague(leagueType: "womens", Button: sender)
+    }
+    
+    @IBAction func onCoEdTapped(_ sender: Any) {
+        selectLeague(leagueType: "coed", Button: sender)
+    }
+    
+    func selectLeague(leagueType: String, Button: Any){
+        player.desiredLeague = leagueType 
+        nextBtn.isEnabled = true
+        
+        let btn = Button as! UIButton
+        btn.backgroundColor = UIColor.darkGray
+    }
     
     /*
     // MARK: - Navigation
