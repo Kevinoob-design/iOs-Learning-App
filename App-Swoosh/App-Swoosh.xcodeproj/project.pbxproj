@@ -107,7 +107,6 @@
 				C4F7258A22C70B6300C4C274 /* Controller */,
 				C4D2298F22BDD97F002CCA74 /* View */,
 				C4D2296122BDD098002CCA74 /* AppDelegate.swift */,
-				C4D2296322BDD098002CCA74 /* WelcomeVC.swift */,
 				C4D2296522BDD098002CCA74 /* Main.storyboard */,
 				C4D2296822BDD09A002CCA74 /* Assets.xcassets */,
 				C4D2296A22BDD09A002CCA74 /* LaunchScreen.storyboard */,
@@ -137,9 +136,6 @@
 		C4D2298F22BDD97F002CCA74 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C4D2299022BDD9FC002CCA74 /* BorderButton.swift */,
-				C4F7258C22C70DA100C4C274 /* LeagueVC.swift */,
-				C4F7258E22C70DE400C4C274 /* SkillVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,6 +143,10 @@
 		C4F7258A22C70B6300C4C274 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C4D2299022BDD9FC002CCA74 /* BorderButton.swift */,
+				C4F7258C22C70DA100C4C274 /* LeagueVC.swift */,
+				C4F7258E22C70DE400C4C274 /* SkillVC.swift */,
+				C4D2296322BDD098002CCA74 /* WelcomeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
